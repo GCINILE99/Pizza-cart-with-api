@@ -93,7 +93,7 @@ document.addEventListener('alpine:init', () => {
                                 this.message = '';
                             }, 3000);
                         } else {
-                            this.paymentMessage = 'You do not have enough money!'
+                            this.paymentMessage = 'Sorry, you do not have enough money!'
                             setTimeout(() => {
                                 this.cart.total = '';
                             }, 3000);
